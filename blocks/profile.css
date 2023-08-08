@@ -10,7 +10,7 @@
   font-weight: 500;
   grid-area: title;
   margin: 0;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: "Inter";
 }
 
 .profile__description {
@@ -19,7 +19,7 @@
   font-weight: 400;
   grid-area: description;
   margin: 0;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: "Inter";
 }
 
 .profile__info {

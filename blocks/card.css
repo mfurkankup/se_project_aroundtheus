@@ -35,7 +35,7 @@
   border-radius: 0px 0px 10px 10px;
   align-items: center;
   justify-content: space-between;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: "Inter";
 }
 
 .card__like-button {
