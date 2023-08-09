@@ -5,19 +5,6 @@
   border-radius: 10px;
 }
 
-.cards {
-  margin-top: 30px;
-}
-
-.cards__list {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fit, 282px);
-  grid-gap: 20px 17px;
-  margin: 0;
-  padding: 0;
-}
-
 .card__image {
   width: 282px;
   height: 282px;
@@ -35,15 +22,20 @@
   border-radius: 0px 0px 10px 10px;
   align-items: center;
   justify-content: space-between;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .card__like-button {
   background: transparent url(../images/like\ inactive.svg) center no-repeat;
   width: 21px;
   height: 18px;
-  top: 643px;
-  left: 441px;
   display: flex;
   border: none;
+}
+
+.card__like-button:hover {
+  cursor: pointer;
 }

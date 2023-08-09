@@ -10,7 +10,11 @@
   font-weight: 500;
   grid-area: title;
   margin: 0;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 373px;
 }
 
 .profile__description {
@@ -19,7 +23,11 @@
   font-weight: 400;
   grid-area: description;
   margin: 0;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 373px;
 }
 
 .profile__info {
@@ -29,10 +37,8 @@
     "description description";
   grid-template-columns: minmax(auto, 373px);
   width: 415px;
-  height: 77px;
-  top: 181px;
-  left: 350px;
-  border: 1px;
+  align-items: center;
+  grid-gap: 9px 17px;
 }
 
 .profile__edit-button {
@@ -42,6 +48,11 @@
   background-position: center;
   width: 24px;
   height: 24px;
+  border: 1px solid #ffffff;
+}
+
+.profile__edit-button:hover {
+  cursor: pointer;
 }
 
 .profile__add-button {
@@ -52,6 +63,12 @@
   width: 150px;
   height: 50px;
   margin-left: auto;
+  border: 1px solid #ffffff;
+  border-radius: 2px 2px 2px 2px;
+}
+
+.profile__add-button:hover {
+  cursor: pointer;
 }
 
 .profile__image {
