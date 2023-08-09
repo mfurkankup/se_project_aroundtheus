@@ -35,7 +35,7 @@
 
 .card__like-button:hover {
   cursor: pointer;
-  opacity: 0.5s;
+  opacity: 0.5;
 }
 
 .card__title {
