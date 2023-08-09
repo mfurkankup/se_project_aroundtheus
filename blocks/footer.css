@@ -1,6 +1,6 @@
 .footer {
   margin-top: 67px;
-  padding-bottom: 78px;
+  padding-bottom: 60px;
 }
 
 .footer__copyright {
@@ -11,4 +11,19 @@
   letter-spacing: 0em;
   text-align: left;
   color: rgba(84, 84, 84, 1);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    margin: 0;
+    padding: 48px 19px 36px 19px;
+  }
+
+  .footer__copyright {
+    font-size: 14px;
+    width: 282px;
+    line-height: 16.94px;
+  }
 }
