@@ -113,7 +113,6 @@
   .profile__title {
     max-width: 196px;
     line-height: 1.2;
-    margin-top: 26px;
     font-size: 22px;
   }
 
@@ -124,6 +123,6 @@
 
   .profile__image {
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 }
