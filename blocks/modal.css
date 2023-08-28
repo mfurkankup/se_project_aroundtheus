@@ -80,3 +80,46 @@
   font-family: "Inter";
   margin-top: 48px;
 }
+
+@media screen and (max-width: 320px) {
+  .modal__container {
+    width: 282px;
+    height: 322px;
+    flex-shrink: 0;
+  }
+
+  .modal__close {
+    width: 26px;
+    height: 26px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+  }
+
+  .modal__heading {
+    width: 238px;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+
+  .modal__input-title {
+    width: 238px;
+    height: 14px;
+    flex-shrink: 0;
+  }
+
+  .modal__input-description {
+    width: 238px;
+    height: 14px;
+    flex-shrink: 0;
+  }
+
+  .modal__button {
+    width: 238px;
+    height: 46px;
+    flex-shrink: 0;
+  }
+}
