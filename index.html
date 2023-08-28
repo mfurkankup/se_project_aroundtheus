@@ -38,70 +38,7 @@
           <button type="button" class="profile__add-button"></button>
         </section>
         <section class="cards page__section">
-          <ul class="cards__list">
-            <li class="card">
-              <img
-                src="./images/yosemite.jpg"
-                alt="yosemite"
-                class="card__image"
-              />
-              <div class="card__description">
-                <h2 class="card__title">Yosemite Valley</h2>
-                <button type="button" class="card__like-button"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/lake-louise.jpg"
-                alt="lake"
-                class="card__image"
-              />
-              <div class="card__description">
-                <h2 class="card__title">Lake Louise</h2>
-                <button type="button" class="card__like-button"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/bald-mountains.jpg"
-                alt="mountains"
-                class="card__image"
-              />
-              <div class="card__description">
-                <h2 class="card__title">Bald Mountains</h2>
-                <button type="button" class="card__like-button"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/latemar.jpg"
-                alt="latemar"
-                class="card__image"
-              />
-              <div class="card__description">
-                <h2 class="card__title">Latemar</h2>
-                <button type="button" class="card__like-button"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/vanoise.jpg"
-                alt="vanoise"
-                class="card__image"
-              />
-              <div class="card__description">
-                <h2 class="card__title">Vanoise National</h2>
-                <button type="button" class="card__like-button"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img src="./images/lago.jpg" alt="lago" class="card__image" />
-              <div class="card__description">
-                <h2 class="card__title">Lago Di Braies</h2>
-                <button type="button" class="card__like-button"></button>
-              </div>
-            </li>
-          </ul>
+          <ul class="cards__list"></ul>
         </section>
         <footer class="footer page__section">
           <p class="footer__copyright">© 2022 Around The U.S.</p>
@@ -116,19 +53,32 @@
           <input
             type="text"
             name="title"
+            id="profile-title-input"
             class="modal__input-title"
-            placeholder="Jacques Cousteau"
+            placeholder="Name"
           />
           <input
             type="text"
             name="description"
+            id="profile-description-input"
             class="modal__input-description"
-            placeholder="Explorer"
+            placeholder="Description"
           />
           <button class="modal__button">Save</button>
         </form>
       </div>
     </div>
+
+    <template id="card-template">
+      <li class="card">
+        <img class="card__image" src="" alt="" />
+        <div class="card__description">
+          <h2 class="card__title"></h2>
+          <button type="button" class="card__like-button"></button>
+        </div>
+      </li>
+    </template>
+
     <script src="scripts/index.js"></script>
   </body>
 </html>
