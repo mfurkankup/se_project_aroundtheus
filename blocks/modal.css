@@ -81,17 +81,16 @@
   margin-top: 48px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .modal__container {
-    width: 282px;
-    height: 322px;
-    flex-shrink: 0;
+    box-sizing: border-box;
+    max-width: calc(100% - 19px * 2);
+    width: 100%;
   }
 
   .modal__close {
     width: 26px;
     height: 26px;
-    transform: rotate(-45deg);
     flex-shrink: 0;
   }
 
@@ -109,17 +108,20 @@
     width: 238px;
     height: 14px;
     flex-shrink: 0;
+    width: 100%;
   }
 
   .modal__input-description {
     width: 238px;
     height: 14px;
     flex-shrink: 0;
+    width: 100%;
   }
 
   .modal__button {
     width: 238px;
     height: 46px;
     flex-shrink: 0;
+    width: 100%;
   }
 }
