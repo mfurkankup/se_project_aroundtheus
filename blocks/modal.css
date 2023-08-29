@@ -84,8 +84,8 @@
 @media screen and (max-width: 480px) {
   .modal__container {
     box-sizing: border-box;
-    max-width: calc(100% - 19px * 2);
     width: 100%;
+    padding: 22px;
   }
 
   .modal__close {
@@ -108,14 +108,12 @@
     width: 238px;
     height: 14px;
     flex-shrink: 0;
-    width: 100%;
   }
 
   .modal__input-description {
     width: 238px;
     height: 14px;
     flex-shrink: 0;
-    width: 100%;
   }
 
   .modal__button {
