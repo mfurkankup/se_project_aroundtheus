@@ -85,13 +85,19 @@
   .modal__container {
     box-sizing: border-box;
     width: 100%;
-    padding: 22px;
+    height: 322px;
+    padding-right: 22px;
+    padding-left: 22px;
   }
 
   .modal__close {
     width: 26px;
     height: 26px;
     flex-shrink: 0;
+    left: 264px;
+    margin-bottom: 13px;
+    padding: 0;
+}
   }
 
   .modal__heading {
